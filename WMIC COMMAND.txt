@@ -1,0 +1,20 @@
+Microsoft Windows [Version 10.0.26100.3476]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\work>wmic cpu get caption, name, deviceid, numberofcores, maxclockspeed, status
+Caption                                DeviceID  MaxClockSpeed  Name                                 NumberOfCores  Status
+Intel64 Family 6 Model 183 Stepping 1  CPU0      2100           13th Gen Intel(R) Core(TM) i7-13700  16             OK  
+
+
+C:\work> wmic diskdrive get caption, model, size
+Caption                 Model                   Size
+KINGSTON SUV400S37240G  KINGSTON SUV400S37240G  240054796800
+PC SN740 NVMe WD 1TB    PC SN740 NVMe WD 1TB    1024203640320
+
+
+C:\work>wmic memorychip get capacity, devicelocator, manufacturer
+Capacity     DeviceLocator  Manufacturer
+34359738368  DIMM1          80CE000080CE
+
+
+C:\work>
