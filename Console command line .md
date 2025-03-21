@@ -24,3 +24,5 @@ Take command-line control over WMI.
  
 (https://medium.com/@nirvana.elahi/wmic-risks-threats-and-detection-techniques-f287a4488167)
 
+o detect and respond to attacks that use WMIC, organizations can use a variety of techniques and tools. One common technique is to monitor for WMIC usage on the network. This can be done using network monitoring tools like Wireshark or TCPDump, which can capture and analyze network traffic to look for evidence of WMIC usage.
+
